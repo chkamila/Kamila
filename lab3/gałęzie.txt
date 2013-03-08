@@ -1,0 +1,17 @@
+a) Dziêki ga³êziom mo¿na pracowaæ nad oprogramowaniem bez potrzeby „mieszania” w g³ównej linii rozwoju
+i bez czêstego cofania wprowadzonych zmian.
+b) Domyœlnie u¿ywana ga³¹Ÿ nazywa siê master.
+c) HEAD wskazuje na ga³¹Ÿ, na której siê znajdujesz.
+d) git branch nowa-super-funkcja   # utworzenie nowej ga³êzi
+  git checkout nowa-super-funkcja # prze³¹czenie siê do tej ga³êzi
+  [...]                           # twórcza praca nad now¹ super funkcj¹
+  git commit -a                   # zatwierdzenie zmian
+  git checkout master             # powrót do domyœlnej ga³êzi
+
+  # je¿eli zmiany s¹ zadowalaj¹ce mo¿na je w³¹czyæ do domyœlnej ga³êzi
+  git merge nowa-super-funkcja
+  git branch -d nowa-super-funkcja
+
+  # je¿eli nowa-super-funkcja nie jest a¿ tak super i lepiej ¿eby nikt jej
+  # nigdy nie widzia³, mo¿na zlikwidowaæ ca³¹ ga³¹Ÿ bez œladów
+  git branch -D nowa-super-funkcja
