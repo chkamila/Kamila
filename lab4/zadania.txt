@@ -1,23 +1,23 @@
-1) Wypisz komendy linii poleceñ umo¿liwiaj¹ce:
+1) Wypisz komendy linii poleceÅ„ umoÅ¼liwiajÄ…ce:
 
-wyœwietlenie informacji o poleceniach (pomocy)    help
-wyœwietlanie zawartoœci bie¿¹cego katalogu        ls    
+wyÅ›wietlenie informacji o poleceniach (pomocy)    help
+wyÅ›wietlanie zawartoÅ›ci bieÅ¼Ä…cego katalogu        ls    
 utworzenie katalogu o nazwie 'katalog'            mkdir c:\katalog
 utworzenia pliku o nazwie 'plik.txt'              touch plik.txt
-wyœwietlenie zawartoœci pliku 'plik.txt'          cat plik.txt
-przejœcie do katalogu nadrzêdnego                 cd ..
-przejœcie do katalogu 'lab4'                      cd lab4
-zmianê nazwy pliku 'plik.txt' na 'inny_plik.txt'  mv plik.txt inny_plik.txt  
+wyÅ›wietlenie zawartoÅ›ci pliku 'plik.txt'          cat plik.txt
+przejÅ›cie do katalogu nadrzÄ™dnego                 cd ..
+przejÅ›cie do katalogu 'lab4'                      cd lab4
+zmianÄ™ nazwy pliku 'plik.txt' na 'inny_plik.txt'  mv plik.txt inny_plik.txt  
 
-2) Wypróbuj na w³asnym repozytorium oraz podaj komendy gita s³u¿¹c¹ do:
+2) WyprÃ³buj na wÅ‚asnym repozytorium oraz podaj komendy gita sÅ‚uÅ¼Ä…cÄ… do:
 
-podgl¹du wszystkich zatwierdzonych zmian                              git log  
-podgl¹du wprowadzonych w repozytorium zmian                           git diff  
-podgl¹du wprowadzonych zmian plików które s¹ juz w przechowalni       git diff-staged 
-podgl¹du zmian wprowadzonych w danym pliku                            git status
-usuwania plików z repozytorium                                        git rm  
-dodawanie plików do przechowalni                                      git add
-usuwanie plików z przechowalni                                        git reset
-przenoszenia plików znajduj¹cych siê w przechowalni do innej ga³êzi   git stash  
-usuwania ga³êzi                                                       git branch-d 
+podglÄ…du wszystkich zatwierdzonych zmian                              git log  
+podglÄ…du wprowadzonych w repozytorium zmian                           git diff  
+podglÄ…du wprowadzonych zmian plikÃ³w ktÃ³re sÄ… juz w przechowalni       git diff-staged 
+podglÄ…du zmian wprowadzonych w danym pliku                            git status
+usuwania plikÃ³w z repozytorium                                        git rm  
+dodawanie plikÃ³w do przechowalni                                      git add
+usuwanie plikÃ³w z przechowalni                                        git reset
+przenoszenia plikÃ³w znajdujÄ…cych siÄ™ w przechowalni do innej gaÅ‚Ä™zi   git stash  
+usuwania gaÅ‚Ä™zi                                                       git branch-d 
   
