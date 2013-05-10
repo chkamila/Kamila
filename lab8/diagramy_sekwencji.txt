@@ -1,20 +1,20 @@
 Diagramy sekwencji UML
 
-Diagramy sekwencji (przebiegu) s¹ podstawowym typem diagramów interakcji.
-Diagramy sekwencji dobrze ukazuj¹ dynamiczne aspekty realizacji scenariuszy, w których dochodzi do z³o¿onych 
-oddzia³ywañ pomiêdzy obiektami. Podstawowymi oddzia³ywaniami s¹ wymiany komunikatów oznaczane nastêpuj¹cymi 
+Diagramy sekwencji (przebiegu) sÄ… podstawowym typem diagramÃ³w interakcji.
+Diagramy sekwencji dobrze ukazujÄ… dynamiczne aspekty realizacji scenariuszy, w ktÃ³rych dochodzi do zÅ‚oÅ¼onych 
+oddziaÅ‚ywaÅ„ pomiÄ™dzy obiektami. Podstawowymi oddziaÅ‚ywaniami sÄ… wymiany komunikatÃ³w oznaczane nastÄ™pujÄ…cymi 
 symbolami:
-- przes³anie komunikatu asynchronicznego – strza³ka zwyk³a
-- wywo³anie funkcji – strza³ka z wype³nionym grotem
-- powrót z funkcji – strza³ka rysowana lini¹ przerywan¹
+- przesÅ‚anie komunikatu asynchronicznego â€“ strzaÅ‚ka zwykÅ‚a
+- wywoÅ‚anie funkcji â€“ strzaÅ‚ka z wypeÅ‚nionym grotem
+- powrÃ³t z funkcji â€“ strzaÅ‚ka rysowana liniÄ… przerywanÄ…
 
-Symbole oddzia³ywañ mo¿na uzupe³niaæ nazwami i specyfikacjami (np. sygnatury wywo³añ, typy przesy³anych 
-argumentów).
+Symbole oddziaÅ‚ywaÅ„ moÅ¼na uzupeÅ‚niaÄ‡ nazwami i specyfikacjami (np. sygnatury wywoÅ‚aÅ„, typy przesyÅ‚anych 
+argumentÃ³w).
 
-Na diagramach sekwencji w ³atwy sposób ilustrowaæ mo¿na tworzenie i niszczenie obiektów (poprzez odpowiednie 
-umieszczenie obiektów i odpowiednie symbole). Diagramy sekwencji mog¹ zawieraæ dodatkowe konstrukcje 
-umo¿liwiaj¹ce zapis takich aspektów realizacji programu jak instrukcje warunkowe czy pêtle. Realizuje siê to 
-poprzez umieszczenie na diagramie sekwencji odpowiednich regionów – ramek interakcji. Diagramy sekwencji mog¹ 
-tak¿e zawieraæ informacje o ograniczeniach czasowych realizowanych dzia³añ (istniej¹ te¿ specjalne diagramy do 
-tego celu – timing diagrams – które pomijamy ze wzglêdu na fakt, i¿ odpowiadaj¹ zachowaniu rzadko obecnemu w 
+Na diagramach sekwencji w Å‚atwy sposÃ³b ilustrowaÄ‡ moÅ¼na tworzenie i niszczenie obiektÃ³w (poprzez odpowiednie 
+umieszczenie obiektÃ³w i odpowiednie symbole). Diagramy sekwencji mogÄ… zawieraÄ‡ dodatkowe konstrukcje 
+umoÅ¼liwiajÄ…ce zapis takich aspektÃ³w realizacji programu jak instrukcje warunkowe czy pÄ™tle. Realizuje siÄ™ to 
+poprzez umieszczenie na diagramie sekwencji odpowiednich regionÃ³w â€“ ramek interakcji. Diagramy sekwencji mogÄ… 
+takÅ¼e zawieraÄ‡ informacje o ograniczeniach czasowych realizowanych dziaÅ‚aÅ„ (istniejÄ… teÅ¼ specjalne diagramy do 
+tego celu â€“ timing diagrams â€“ ktÃ³re pomijamy ze wzglÄ™du na fakt, iÅ¼ odpowiadajÄ… zachowaniu rzadko obecnemu w 
 typowym oprogramowaniu).
